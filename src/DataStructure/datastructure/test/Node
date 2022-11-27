@@ -1,0 +1,13 @@
+package DataStructure.datastructure.test;
+//结点类实现
+public class Node<T> {
+    //存储元素
+    public T item;
+    //指向下一个节点
+    public Node next;
+
+    public Node(T item,Node next){
+        this.item = item;
+        this.next = next;
+    }
+}
